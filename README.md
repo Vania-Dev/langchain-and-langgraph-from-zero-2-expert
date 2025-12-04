@@ -8,23 +8,23 @@ This repository provides a structured approach to learning LangChain and LangGra
 
 ## 📚 Learning Path
 
-### Beginner Level
-- Basic LangChain concepts and setup
-- Working with LLMs and chat models
-- Prompt engineering fundamentals
-- Simple chains and basic operations
+### Chapter 1: Fundamentals (Beginner)
+- Model invocation and basic interactions
+- Message types and prompt templates
+- Structured outputs with Pydantic
+- Runnable interface and chain composition
 
-### Intermediate Level
-- Advanced prompt techniques
-- Memory and conversation handling
-- Document processing and retrieval
-- Custom tools and agents
+### Chapter 2: RAG Foundations (Beginner-Intermediate)
+- Document loading from multiple sources
+- Text extraction and preprocessing
+- Data indexing preparation
+- File format handling (TXT, PDF, Web)
 
-### Advanced Level
+### Coming Soon: Advanced Topics
+- Vector databases and embeddings
+- Retrieval strategies and optimization
 - LangGraph workflows and state management
-- Complex multi-agent systems
-- Production deployment strategies
-- Performance optimization
+- Production deployment and monitoring
 
 ## 🚀 Getting Started
 
@@ -32,34 +32,70 @@ This repository provides a structured approach to learning LangChain and LangGra
 - Python 3.8+
 - Basic understanding of Python programming
 - Familiarity with AI/ML concepts (helpful but not required)
+- **Ollama installed locally** (required for running examples)
+  - Download from: https://ollama.ai
+  - Pull the model: `ollama pull llama3.2:3b`
 
 ### Installation
 ```bash
-pip install langchain langchain-ollama langgraph pydantic
+# Core LangChain dependencies
+pip install langchain langchain-ollama pydantic
+
+# Document processing dependencies
+pip install beautifulsoup4 pypdf
+
+# Optional: For advanced features
+pip install langgraph
 ```
 
 ## 📁 Repository Structure
 
 ```
 Examples/
-├── 01_basic_llm.py          # Getting started with LLMs
-├── 02_prompt_templates.py   # Working with prompts
-├── 03_chains.py             # Building chains
-├── 04_memory.py             # Conversation memory
-├── 05_agents.py             # Creating agents
-├── 06_JSON_output.py        # Structured outputs
-└── ...                      # More examples
+├── Chapter 1 Fundamentals with LangChain/
+│   ├── 01_Invocar_modelo.py         # Basic LLM invocation with Ollama
+│   ├── 02_Human_message.py          # Working with human messages
+│   ├── 03_system_message.py         # System message configuration
+│   ├── 04_Prompt_template.py        # Creating prompt templates
+│   ├── 05_Chat_prompt_template.py   # Chat-specific prompt templates
+│   ├── 06_JSON_output.py            # Structured JSON responses with Pydantic
+│   ├── 07_Runnable_interface.py     # LangChain runnable interface
+│   └── 08_Imperative_composition.py # Composing chains imperatively
+└── Chapter 2 RAG Part One Indexing Data/
+    ├── files/
+    │   ├── OCR.pdf                  # Sample PDF for testing
+    │   └── test.txt                 # Sample text file for testing
+    ├── 01_Convert_Documents_2_text.py # Loading text documents
+    ├── 02_Convert_Web_2_Text.py      # Web scraping with BeautifulSoup
+    └── 03_Convert_PDF_2_Text.py      # PDF processing with PyPDF
 ```
 
-## 🛠 Examples
+## 🛠 Examples by Chapter
 
-Each example builds upon previous concepts:
+### Chapter 1: LangChain Fundamentals
+Progressive examples covering core LangChain concepts:
 
-- **Basic LLM Usage**: Simple model interactions
-- **Structured Outputs**: JSON responses with Pydantic models
-- **Chains**: Connecting multiple operations
-- **Agents**: Autonomous decision-making systems
-- **LangGraph**: Complex workflow orchestration
+- **Model Invocation**: Direct interaction with Ollama models
+- **Message Types**: Human and system message handling
+- **Prompt Engineering**: Template creation and customization
+- **Structured Outputs**: JSON responses with Pydantic validation
+- **Runnable Interface**: LangChain's composable architecture
+- **Chain Composition**: Building complex workflows
+
+### Chapter 2: RAG - Data Indexing
+Document processing and preparation for retrieval:
+
+- **Text Documents**: Loading and processing plain text files
+- **Web Content**: Scraping and extracting web page content
+- **PDF Processing**: Extracting text from PDF documents
+- **File Management**: Organizing sample data for testing
+
+### Use Cases Covered
+- 🤖 **Chatbot Development**: Interactive AI conversations
+- 📄 **Document Processing**: Multi-format content extraction
+- 🔍 **Information Retrieval**: RAG system foundations
+- 🏗️ **Structured AI**: Reliable JSON output generation
+- 🔗 **Workflow Automation**: Chaining AI operations
 
 ## 📖 Usage
 
@@ -84,3 +120,6 @@ Feel free to contribute examples, improvements, or documentation updates through
 ## 📄 License
 
 This project is open source and available under the MIT License.
+
+
+Craft it with the kind of ❤️ that leaves fingerprints on the soul.

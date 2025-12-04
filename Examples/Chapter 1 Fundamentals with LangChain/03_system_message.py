@@ -25,7 +25,7 @@ messages = [
     SystemMessage(content="Eres un asistente que ayuda a contestar las preguntas con signos de exclamación al inicio y final."),
     HumanMessage(content="Cual es la capital de mexico")
 ]
-1
+
 # Invocamos el modelo con la lista de mensajes
 # invoke() envía los mensajes al modelo y devuelve un objeto de respuesta.
 response = model.invoke(messages)
