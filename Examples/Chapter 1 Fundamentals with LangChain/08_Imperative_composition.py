@@ -50,12 +50,12 @@ for part in chatbot_stream.stream({
 }):
     print(part.content, end="", flush=True)
 
-# Asincrono
-@chain
-async def asin_chatbot(values):
-    prompt = await template.ainvoke(values)
-    return await model.ainvoke(prompt)
-response = await asin_chatbot.ainvoke({"question": "Which model providers offer LLMs?"})
-print(response)
+# # Asincrono
+# @chain
+# async def asin_chatbot(values):
+#     prompt = await template.ainvoke(values)
+#     return await model.ainvoke(prompt)
+# response = await asin_chatbot.ainvoke({"question": "Which model providers offer LLMs?"})
+# print(response)
 
 # > AIMessage(content="""Hugging Face's `transformers` library, OpenAI using    the `openai` library, and Cohere using the `cohere` library offer LLMs.""")
