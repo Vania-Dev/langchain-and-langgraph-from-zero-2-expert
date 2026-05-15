@@ -39,10 +39,16 @@ This repository provides a structured approach to learning LangChain and LangGra
 ### Installation
 ```bash
 # Core LangChain dependencies
-pip install langchain langchain-ollama pydantic
+pip install langchain langchain-ollama langchain-community pydantic
 
 # Document processing dependencies
 pip install beautifulsoup4 pypdf
+
+# Vector store and embeddings
+pip install faiss-cpu sentence-transformers
+
+# Advanced RAG techniques
+pip install umap-learn scikit-learn numpy
 
 # Optional: For advanced features
 pip install langgraph
@@ -63,11 +69,18 @@ Examples/
 │   └── 08_Imperative_composition.py # Composing chains imperatively
 └── Chapter 2 RAG Part One Indexing Data/
     ├── files/
-    │   ├── OCR.pdf                  # Sample PDF for testing
-    │   └── test.txt                 # Sample text file for testing
-    ├── 01_Convert_Documents_2_text.py # Loading text documents
-    ├── 02_Convert_Web_2_Text.py      # Web scraping with BeautifulSoup
-    └── 03_Convert_PDF_2_Text.py      # PDF processing with PyPDF
+    │   ├── OCR.pdf                           # Sample PDF for testing
+    │   └── test.txt                          # Sample text file for testing
+    ├── 01_Convert_Documents_2_text.py        # Loading text documents
+    ├── 02_Convert_Web_2_Text.py              # Web scraping with BeautifulSoup
+    ├── 03_Convert_PDF_2_Text.py              # PDF processing with PyPDF
+    ├── 04_Splitting_Text_into_chunks.py      # Text chunking strategies
+    ├── 05_Generating_Text_Embeddings.py      # Creating vector embeddings
+    ├── 06_Working_with_Vector_Store.py       # FAISS vector database
+    ├── 07_Tracking_Changes_to_Your_Documents.py # Document versioning
+    ├── 08_MultiVectorRetriever.py            # Advanced retrieval patterns
+    ├── 09_ColBERT_Optimizing_Embeddings.py   # ColBERT optimization
+    └── 10_RAPTOR.py                          # Recursive abstractive processing
 ```
 
 ## 🛠 Examples by Chapter
@@ -88,7 +101,13 @@ Document processing and preparation for retrieval:
 - **Text Documents**: Loading and processing plain text files
 - **Web Content**: Scraping and extracting web page content
 - **PDF Processing**: Extracting text from PDF documents
-- **File Management**: Organizing sample data for testing
+- **Text Chunking**: Splitting documents into optimal chunks
+- **Embeddings**: Generating vector representations of text
+- **Vector Stores**: Working with FAISS for similarity search
+- **Document Tracking**: Managing document changes and versions
+- **Multi-Vector Retrieval**: Advanced retrieval strategies
+- **ColBERT**: Optimizing embeddings for better retrieval
+- **RAPTOR**: Recursive abstractive processing with tree-organized retrieval
 
 ### Use Cases Covered
 - 🤖 **Chatbot Development**: Interactive AI conversations
