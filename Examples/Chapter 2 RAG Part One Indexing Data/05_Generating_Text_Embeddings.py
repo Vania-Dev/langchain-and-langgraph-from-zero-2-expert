@@ -1,17 +1,19 @@
-from langchain_ollama import OllamaEmbeddings
 from langchain_community.document_loaders import TextLoader
+from langchain_ollama import OllamaEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # Usa cualquier modelo compatible con embeddings, por ejemplo nomic-embed-text
 emb_model = OllamaEmbeddings(model="llama3.2:3b")
 
-embeddings = emb_model.embed_documents([
-    "Hi there!",
-    "Oh, hello!",
-    "What's your name?",
-    "My friends call me World",
-    "Hello World!"
-])
+embeddings = emb_model.embed_documents(
+    [
+        "Hi there!",
+        "Oh, hello!",
+        "What's your name?",
+        "My friends call me World",
+        "Hello World!",
+    ]
+)
 
 print(embeddings)
 
@@ -26,8 +28,6 @@ text_splitter = RecursiveCharacterTextSplitter(
 chunks = text_splitter.split_documents(doc)
 ## Generate embeddings
 embeddings_model = OllamaEmbeddings(model="llama3.2:3b")
-embeddings = embeddings_model.embed_documents(
-    [chunk.page_content for chunk in chunks]
-)
+embeddings = embeddings_model.embed_documents([chunk.page_content for chunk in chunks])
 
 print(embeddings)
