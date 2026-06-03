@@ -1,4 +1,29 @@
-# LangChain & LangGraph: Zero to Expert
+# LangChain, LangGraph and Deep Agents: Zero to Expert
+
+[![Contributors](https://img.shields.io/github/contributors/Vania-Dev/langchain-and-langgraph-from-zero-2-expert?style=for-the-badge&logo=github&label=Contributors&labelColor=101010)](https://github.com/Vania-Dev/langchain-and-langgraph-from-zero-2-expert/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/Vania-Dev/langchain-and-langgraph-from-zero-2-expert?style=for-the-badge&logo=github&label=Forks&labelColor=101010)](https://github.com/Vania-Dev/langchain-and-langgraph-from-zero-2-expert/forks)
+[![Stars](https://img.shields.io/github/stars/Vania-Dev/langchain-and-langgraph-from-zero-2-expert?style=for-the-badge&logo=github&labelColor=101010)](https://github.com/Vania-Dev/langchain-and-langgraph-from-zero-2-expert/stargazers)
+[![Issues](https://img.shields.io/github/issues/Vania-Dev/langchain-and-langgraph-from-zero-2-expert?style=for-the-badge&logo=github&label=Issues&labelColor=101010)](https://github.com/Vania-Dev/langchain-and-langgraph-from-zero-2-expert/issues)
+
+<br />
+<div align="center">
+  <a href="https://github.com/Vania-Dev">
+    <img src="images/vaniadev.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Repositorio par Aprender AWS con Python 3 y boto3</h3>
+
+  <a href="https://www.youtube.com/playlist?list=PLZLvS5NXZVysi0nnN6B3XpSw_6q-0ur5x">
+    <img src="images/LangChain.png" alt="Logo" style="height: 60%; width:60%;">
+  </a>
+
+  <p align="center">
+    <br />
+    <a href="https://github.com/Vania-Dev/langchain-and-langgraph-from-zero-2-expert/issues/new?labels=bug">Reportar un Error</a>
+    ·
+    <a href="https://github.com/Vania-Dev/langchain-and-langgraph-from-zero-2-expert/issues/new?labels=enhancement">Solicitar Mejora</a>
+  </p>
+</div>
 
 A comprehensive learning path for mastering LangChain and LangGraph from beginner to advanced level.
 
@@ -136,9 +161,22 @@ By completing this course, you will:
 
 Feel free to contribute examples, improvements, or documentation updates through pull requests.
 
-## 📄 License
 
-This project is open source and available under the MIT License.
+## 📧 Contact
 
+[![YouTube](https://img.shields.io/badge/YouTube-vaniadev-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=101010)](https://youtube.com/@VANIADEV)
+[![Instagram](https://img.shields.io/badge/Instagram-@vania__dev__-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=101010)](https://www.instagram.com/vania_dev_/)
+[![TikTok](https://img.shields.io/badge/TikTok-@vania__dev__-69C9D0?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=101010)](https://www.tiktok.com/@vania_dev_)
+[![Facebook](https://img.shields.io/badge/Facebook-@vaniadev-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=101010)](https://www.facebook.com/SMAEMX)
+[![Link](https://img.shields.io/badge/Links-vaniadev-39E09B?style=for-the-badge&logo=Linktree&logoColor=white&labelColor=101010)](https://beacons.ai/vaniadev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ivan_Castañeda-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/ivan-castaneda-nazario/)
+[![Web](https://img.shields.io/badge/Web-vaniadev-14a1f0?style=for-the-badge&logo=dev.to&logoColor=white&labelColor=101010)](https://vaniadev.super.site/)
+[![BuyMeACoffee](https://img.shields.io/badge/Buy_Me_A_Coffee-apoya_mi_trabajo-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white&labelColor=101010)](https://buymeacoffee.com/vania_vaniusha)
 
-Craft it with the kind of ❤️ that leaves fingerprints on the soul.
+---
+
+<div align="center">
+
+**Hazlo con el tipo de ❤️ que deja huellas en el alma**
+
+[⭐ Star this repo](https://github.com/Vania-Dev/langchain-and-langgraph-from-zero-2-expert) • [🐛 Reportar Bug](https://github.com/Vania-Dev/langchain-and-langgraph-from-zero-2-expert/issues) • [✨ Solicitar Feature](https://github.com/Vania-Dev/langchain-and-langgraph-from-zero-2-expert/issues)
