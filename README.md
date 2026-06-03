@@ -11,7 +11,7 @@
     <img src="images/vaniadev.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Repositorio par Aprender AWS con Python 3 y boto3</h3>
+  <h3 align="center">LangChain, LangGraph and Deep Agents: Zero to Expert</h3>
 
   <a href="https://www.youtube.com/playlist?list=PLZLvS5NXZVysi0nnN6B3XpSw_6q-0ur5x">
     <img src="images/LangChain.png" alt="Logo" style="height: 60%; width:60%;">
@@ -25,7 +25,7 @@
   </p>
 </div>
 
-A comprehensive learning path for mastering LangChain and LangGraph from beginner to advanced level.
+A comprehensive learning path for mastering LangChain, LangGraph & Deep Agents from beginner to advanced level.
 
 ## 🎯 Overview
 
